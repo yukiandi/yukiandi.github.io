@@ -1,5 +1,5 @@
 ---
-author: YUKIANDI
+
 ---
 
 ## Welcome to Yukiandi's github
