@@ -1,3 +1,5 @@
 theme: jekyll-theme-hacker
 title: YUKIANDI
 timezone: Asia/Shanghai
+collections:
+  - game_collection
