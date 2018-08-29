@@ -1,7 +1,11 @@
 ---
 ---
 
-@import 'jekyll-theme-hacker';
+//@import 'jekyll-theme-hacker';
+@import "common";
 @import "header";
+@import "home";
 @import "container";
+@import "portfolio";
 @import "footer";
+

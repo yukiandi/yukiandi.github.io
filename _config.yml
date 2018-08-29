@@ -3,4 +3,7 @@ title: YUKIANDI的主页
 # timezone: Asia/Shanghai
 description: YUKIANDI's github page
 collections:
-  - game_collection
+  game_collection:
+      output: true
+  portfolio_collection:
+    output: true

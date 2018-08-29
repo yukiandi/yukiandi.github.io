@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60em;
+  }
+}
+
+
+
+h1 {
+  width: 50%;
+  align-self: flex-start;
+  font-size: 5em;
+  margin: 0;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 3em;
+}

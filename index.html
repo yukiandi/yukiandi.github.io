@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-
+{%- include header.html -%}
+{%- include home.html -%}
+{%- include portfolio.html -%}
 <h2>文章列表</h2>
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
 <p class="post">
 	<a  href="{{ post.url | absolute_url }}">
 		{{ post.title }}

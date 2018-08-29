@@ -1,0 +1,7 @@
+<div id="portfolios">
+  {%- for portfolio in site.portfolio_collection -%}
+  <div class="portfolio" style="background:{{ portfolio.background }};">
+    <p>{{ portfolio.title }}</p>
+  </div>
+  {%- endfor -%}
+</div>
