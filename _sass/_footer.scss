@@ -1,3 +1,25 @@
-#footer {
-  font-size: 1em;
+
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  background: black;
+}
+
+#footer-pages {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.ul-page {
+  background: white;
+  margin: 0 1em;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  img {
+    width: 3em;
+    height: 3em;
+  }
 }
