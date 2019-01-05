@@ -1,0 +1,23 @@
+@import "size";
+
+@mixin base-borderbox {
+    box-sizing: border-box;
+}
+
+@mixin base-radius-box {
+    border-radius: $base-font-size-m;
+}
+
+@mixin flex-box($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+.borderbox-radius {
+    @include base-borderbox;
+    @include base-radius-box;
+}
+
+.flex-box-column {
+    @include flex-box(column);
+}
